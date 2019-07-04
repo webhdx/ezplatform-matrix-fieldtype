@@ -10,7 +10,6 @@ services:
     EzSystems\EzPlatformMatrixFieldtype\FieldType\Type:
         autoconfigure: false
         autowire: true
-        public: true
         parent: ezpublish.fieldType
         arguments:
             $fieldTypeIdentifier: '%ezplatform.fieldtype.matrix.identifier%'
